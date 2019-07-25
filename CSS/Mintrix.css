@@ -1,4 +1,3 @@
-/* Generated on: Wed Feb 13 2019 07:13:58 GMT+0000 (UTC) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
    ========================================================================== */
@@ -77,28 +76,6 @@ body {margin:0; min-height:100%; background-color:#fff; font-family:Arial,sans-s
            h5 {font-size:14px; line-height:20px; margin-top:10px}
              h6 {font-size:12px; line-height:18px; margin-top:10px}
   p {margin-top:0; margin-bottom:10px}
-   blockquote {margin:0 0 10px 0; padding:10px 20px; border-left:5px solid #E2E2E2; font-size:18px; line-height:22px}
-    figure {margin:0; margin-bottom:10px}
-      figcaption {margin-top:5px; text-align:center}
-        ul,ol {margin-top:0; margin-bottom:10px; padding-left:40px}
-          .w-list-unstyled {padding-left:0; list-style:none}
-            .w-embed:before,.w-embed:after {content:" "; display:table; grid-column-start:1; grid-row-start:1; grid-column-end:2; grid-row-end:2}
-              .w-embed:after {clear:both}
-                .w-video {width:100%; position:relative; padding:0}
-                  .w-video iframe,.w-video object,.w-video embed {position:absolute; top:0; left:0; width:100%; height:100%}
-                    fieldset {padding:0; margin:0; border:0}
-                      button,html input[type="button"],input[type="reset"] {border:0; cursor:pointer; -webkit-appearance:button}
-                        .w-form {margin:0 0 15px}
-                          .w-form-done {display:none; padding:20px; text-align:center; background-color:#dddddd}
-                            .w-form-fail {display:none; margin-top:10px; padding:10px; background-color:#ffdede}
-                              label {display:block; margin-bottom:5px; font-weight:bold}
-                                .w-input,.w-select {display:block; width:100%; height:38px; padding:8px 12px; margin-bottom:10px; font-size:14px; line-height:1.42857143; color:#333333; vertical-align:middle; background-color:#ffffff; border:1px solid #cccccc}  .w-input:-moz-placeholder,.w-select:-moz-placeholder {color:#999}  .w-input::-moz-placeholder,.w-select::-moz-placeholder {color:#999; opacity:1}  .w-input:-ms-input-placeholder,.w-select:-ms-input-placeholder {color:#999}  .w-input::-webkit-input-placeholder,.w-select::-webkit-input-placeholder {color:#999}
-                                  .w-input:focus,.w-select:focus {border-color:#3898EC; outline:0}
-                                    .w-input[disabled],.w-select[disabled],.w-input[readonly],.w-select[readonly],fieldset[disabled] .w-input,fieldset[disabled] .w-select {cursor:not-allowed; background-color:#eeeeee}  textarea.w-input,textarea.w-select {height:auto}  .w-select {background-image:-webkit-linear-gradient(white 0, #f3f3f3 100%); background-image:linear-gradient(white 0, #f3f3f3 100%)}  .w-select[multiple] {height:auto}  .w-form-label {display:inline-block; cursor:pointer; font-weight:normal; margin-bottom:0}
-                                      .w-checkbox,.w-radio {display:block; margin-bottom:5px; padding-left:20px}
-                                        .w-checkbox:before,.w-radio:before,.w-checkbox:after,.w-radio:after {content:" "; display:table; grid-column-start:1; grid-row-start:1; grid-column-end:2; grid-row-end:2}  .w-checkbox:after,.w-radio:after {clear:both}  .w-checkbox-input,.w-radio-input {margin:4px 0 0; margin-top:1px \9; line-height:normal; float:left; margin-left:-20px}  .w-radio-input {margin-top:3px}  .w-file-upload {display:block; margin-bottom:10px}  .w-file-upload-input {width:.1px; height:.1px; opacity:0; overflow:hidden; position:absolute; z-index:-100}
-                                          .w-file-upload-default,.w-file-upload-uploading,.w-file-upload-success {display:inline-block; color:#333333}
-                                            .w-file-upload-error {display:block; margin-top:10px}
   .w-file-upload-default.w-hidden,.w-file-upload-uploading.w-hidden,.w-file-upload-error.w-hidden,.w-file-upload-success.w-hidden {display:none}
   .w-file-upload-uploading-btn {display:flex; font-size:14px; font-weight:normal; cursor:pointer; margin:0; padding:8px 12px; border:1px solid #cccccc; background-color:#fafafa}
   .w-file-upload-file {display:flex; flex-grow:1; justify-content:space-between; margin:0; padding:8px 9px 8px 11px; border:1px solid #cccccc; background-color:#fafafa}
