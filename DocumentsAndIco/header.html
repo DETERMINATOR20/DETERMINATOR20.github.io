@@ -48,7 +48,7 @@
     var page = path.split("/").pop();
     page = page.slice(0, -5);
     console.log(page);
-  if (page != null) {
+  if ( page ) {
     switch (page) {
       case ("index"):
       var element = document.getElementById("home");
@@ -80,6 +80,7 @@
       element.classList.add("w--current");
       break;
     }
+    console.log("Hello");
   } else {
       element.classList.add("w--current");
       element.setAttribute("href", "#");
