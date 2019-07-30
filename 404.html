@@ -27,4 +27,11 @@
     </div>
   </div>
         </body>
+  <script>
+    var currentDirectory = window.location.pathname.split('/').slice(0, -1).join('/')
+    if (currentDirectory == "DocumentsAndIco") {
+      console.log("a");
+    } else {
+      console.log("b");
+    }
         </html>
