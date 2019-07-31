@@ -28,7 +28,7 @@
   </div>
         </body>
   <script>
-    var currentDirectory = window.location.pathname.split('/').slice(0, -1).join('/')
+    var currentDirectory = path.match(/([^\/]*)\/*$/)[1]
     if (currentDirectory == "DocumentsAndIco") {
       console.log("a");
     } else {
