@@ -21,8 +21,14 @@
     <h1 class="hero-heading">Error | 404</h1>
     <div class="hero-subheading">Well this is an undiscovered little island, isn't it</div>
     <div>
-      <a href="https://determinator20.github.io/mintrix.github.io" class="button">Return to home</a>
+      <a href="https://determinator20.github.io/mintrix.github.io" class="button" id="404link">Return to home</a>
     </div>
   </div>
         </body>
+  <script>
+    var pathname = window.location;
+    console.log(pathname.origin);
+    var element = document.getElementById("404link");
+    element.setAttribute("href", pathname.origin);
+  </script>
         </html>
