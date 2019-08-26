@@ -1153,6 +1153,15 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
       font-family: "Geo", sans-serif;
       font-size: 18px;
    }
+
+   input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+    }
+
   .dropbtn {
     color: #676770;
     font-size: 25px;
