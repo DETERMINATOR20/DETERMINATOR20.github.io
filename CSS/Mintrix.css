@@ -1149,6 +1149,10 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
     font-size: 18px;
   }
 
+   label {
+      font-family: "Geo", sans-serif;
+      font-size: 18px;
+   }
   .dropbtn {
     color: #676770;
     font-size: 25px;
